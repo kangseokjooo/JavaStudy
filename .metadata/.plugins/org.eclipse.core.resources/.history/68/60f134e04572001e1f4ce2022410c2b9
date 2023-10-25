@@ -1,0 +1,14 @@
+package java_class;
+
+//static 없는 경우 
+class withoutStatic{
+	private int register=0;
+}
+
+public class CompareStatic {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

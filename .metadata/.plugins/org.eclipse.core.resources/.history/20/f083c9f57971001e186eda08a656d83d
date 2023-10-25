@@ -1,0 +1,18 @@
+package java_first_project;
+
+import java.util.*;
+
+public class ArrayListEx {
+
+	public static void main(String[] args) {
+		ArrayList<String> list=new ArrayList<>();
+		//ArrayList.add(element)
+		list.add("Google");
+		System.out.println(list);
+		//.add(index,element)
+		list.add(0,"Amazon");
+		System.out.println(list);
+		
+	}
+
+}

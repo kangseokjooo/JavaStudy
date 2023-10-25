@@ -1,0 +1,27 @@
+package java_first_project;
+
+import java.util.Scanner;
+
+public class Practice6 {
+		public double circle(double r){
+			return 2*3.14*r*r;
+		}
+		public int rec(int a ,int b) {
+			return a*b;
+		}
+		public int tri(int a, int b) {
+			return (a*b)/2;
+		}
+	public static void main(String[] args) {
+		Practice6 prac=new Practice6();
+		Scanner sc=new Scanner(System.in);
+		int r=sc.nextInt();
+		System.out.printf("반지름이 %d인 원의 넓이:%f",r,prac.circle(r));
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		System.out.printf("가로 %d 새로 %d 인 직사각형의 넓이:%d",a,b,prac.rec(a, b));
+		System.out.println();
+		System.out.printf("밑변 %d 높이 %d인 삼각형의 넓이:%d",a,b,prac.tri(a, b));
+	}
+
+}

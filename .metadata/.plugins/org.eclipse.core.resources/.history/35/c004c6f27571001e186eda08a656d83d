@@ -1,0 +1,12 @@
+package java_first_project;
+
+import java.util.*;
+
+public class ArrayListEx {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> arr1=new ArrayList<>();
+	
+	}
+
+}

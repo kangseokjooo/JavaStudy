@@ -1,0 +1,37 @@
+package java_first_project;
+
+import java.util.Scanner;
+
+public class Condition {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+//		System.out.println("number?");
+//		int number=sc.nextInt();
+//		
+////		if(number % 3==0) {
+////			System.out.println("3의배수");
+////			
+////		}else {
+////			System.out.println("3의배수가 아님");
+////		}
+//		switch (number%3) {
+//		case 0: {
+//			System.out.println("3의배수 ");break;
+//		}
+//		default:{
+//			System.out.println("3의 배수가 아님 ");
+//		}
+//		}
+		System.out.println("name?");
+		String name=sc.nextLine();
+		if(name.equals("코딩온")) {
+			System.out.println("welcome! codingon!");
+		} else {
+			System.out.println("hello!"+name);
+		}
+		sc.close();
+	}
+
+}

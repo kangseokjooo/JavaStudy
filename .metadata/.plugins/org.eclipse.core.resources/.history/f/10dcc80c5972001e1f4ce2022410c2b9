@@ -1,0 +1,11 @@
+package java_oop;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Person(super) 인스턴스 생성 
+		Person person=new Person("hong",30);
+		
+	}
+
+}

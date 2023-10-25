@@ -1,0 +1,18 @@
+package java_class;
+
+public class Car {
+	//멤버 변수
+	private int speed;
+	
+	public void start() {
+		System.out.println("Car Start");
+		System.out.println(speed);
+	}
+	
+	//setter메소드 
+	public void setSpeed(int speed) {
+		this.speed=speed;
+	}
+	
+	
+}

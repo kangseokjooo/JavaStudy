@@ -1,0 +1,40 @@
+package java_first_project;
+
+import java.util.Scanner;
+
+public class Practice5 {
+	public class Calc{
+		public  int add(int num1,int num2) {
+			return num1 + num2;
+		}
+		public  int diff(int num1,int num2) {
+			return num1 - num2;
+		}
+		public  int mul(int num1,int num2) {
+			return num1 * num2;
+		}
+		public  double divide(int num1,int num2) {
+			return num1 / num2;
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Practice5 practice5 = new Practice5(); 
+		Calc calc = practice5.new Calc();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("숫자 두개입력 ");
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		System.out.println("덧셈결과:"+calc.add(a,b));
+		System.out.println("뺄셈결과:"+calc.diff(a,b));
+		System.out.println("곱셈결과:"+calc.mul(a,b));
+		System.out.println("나눗셈결과:"+calc.divide(a,b));
+		
+		
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,18 @@
+package java_first_project;
+
+import java.util.Scanner;
+
+public class Practice4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int num=sc.nextInt();
+		
+		System.out.println("숫자를 입력하세요:");
+		for(int i=1;i<num+1;i++) {
+			System.out.printf("%d  ",num);
+		}
+	}
+
+}

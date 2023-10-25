@@ -1,0 +1,23 @@
+package java_first_project;
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+//		Scanner sc =new Scanner(System.in);
+//		System.out.println("이름을 입력하세요 ");
+//		String name=sc.next();
+//		System.out.println("나이를 입력하세요 ");
+//		int age=sc.nextInt();
+//		System.out.println("안녕하세요! "+name+"님 "+"("+age+"세 "+")");
+		System.out.printf("%d+%d=%d",1,1,1+1).println();
+		System.out.printf("%.2f",1.12345);
+		//형식지정자
+		//%d=정수
+		//%f=실수 
+		//%c=문자 
+		//%b=boolean
+	}
+
+}

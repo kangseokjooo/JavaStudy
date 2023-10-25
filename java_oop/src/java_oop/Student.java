@@ -1,0 +1,18 @@
+package java_oop;
+
+public class Student extends Person {
+	private String major;
+	
+	
+	public Student(String name,int age,String major){
+		//super():하위 클래스에서 상위클래스를 호출하는데 사용 
+		//super 키워드는 상위클래스의 메서드를 호출하는데도 사용된다 
+		super(name,age);
+		this.major=major;
+	}
+	
+	@Override
+	public String toString() {
+		return "Student / "+getName()+"major:"+major;
+	}
+}

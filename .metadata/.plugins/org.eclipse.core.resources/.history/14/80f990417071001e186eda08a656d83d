@@ -1,0 +1,14 @@
+package java_first_project;
+
+import java.util.*;
+
+public class ArraysMethods {
+
+	public static void main(String[] args) {
+		//copyOf
+		int []arr= {1,2,3,4,5};
+		int []newArr=Arrays.copyOf(arr, 4);
+		System.out.println(Arrays.toString(newArr));
+	}
+
+}

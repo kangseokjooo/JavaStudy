@@ -1,0 +1,7 @@
+package java_oop;
+
+public class Practice1 {
+	public static void main(String[ ]args) {
+		Cat cat=new Cat("h", 5);
+	}
+}

@@ -1,0 +1,19 @@
+package java_first_project;
+
+import java.util.*;
+
+public class ArraysMethods {
+
+	public static void main(String[] args) {
+		int []arr= {1,2,3,4,5};
+		
+		//copyOf:특정길이 만큼 복사한 새 배열을 반환 
+		int []newArr=Arrays.copyOf(arr, 4);
+		System.out.println(Arrays.toString(newArr));
+		
+		//copyOfRange
+		int []newArr2=Arrays.copyOfRange(arr, 0, 3);
+		System.out.println(Arrays.toString(newArr2));
+	}
+
+}

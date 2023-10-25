@@ -1,0 +1,9 @@
+package java_class;
+
+public class CompareStatic {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

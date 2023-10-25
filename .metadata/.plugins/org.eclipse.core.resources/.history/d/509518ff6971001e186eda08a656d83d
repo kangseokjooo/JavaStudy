@@ -1,0 +1,20 @@
+package java_first_project;
+
+public class Arr2Ex {
+
+	public static void main(String[] args) {
+		//2차원 배열로 4년 평점구하
+		double[][]score= {{3.5,3.7},{4.1,3.0},{3.5,3.5},{3.8,3.9}};
+		double sum=0;
+		for(int i=0;i<score.length;i++) {
+			for(int j=0;j<score[i].length;j++) {
+				sum+=score[i][j];
+			}
+		}
+		int n=score.length;
+		int m=score[0].length;
+		System.out.print(sum/(n*m));
+		
+	}
+
+}

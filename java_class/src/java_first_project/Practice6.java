@@ -1,0 +1,32 @@
+package java_first_project;
+
+import java.util.Scanner;
+
+public class Practice6 {
+    public void calculateAndPrint() {
+        Scanner sc = new Scanner(System.in);
+
+      
+        System.out.print("반지름을 입력하세요: ");
+        double r = sc.nextDouble();
+        System.out.print("가로 길이를 입력하세요: ");
+        int a = sc.nextInt();
+        System.out.print("세로 길이를 입력하세요: ");
+        int b = sc.nextInt();
+
+ 
+        double circleArea = Math.PI * Math.pow(r, 2);
+        int rectangleArea = a * b;
+        int triangleArea = (a * b) / 2;
+        System.out.printf("반지름이 %.1f인 원의 넓이: %f%n", r, circleArea);
+        System.out.printf("가로 %d, 세로 %d인 직사각형의 넓이: %d%n", a, b, rectangleArea);
+        System.out.printf("밑변 %d, 높이 %d인 삼각형의 넓이: %d%n", a, b, triangleArea);
+
+        sc.close();
+    }
+
+    public static void main(String[] args) {
+        Practice6 prac = new Practice6();
+        prac.calculateAndPrint();
+    }
+}
