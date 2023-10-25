@@ -5,7 +5,7 @@ public class Animal {
 	private String name;
 	private int age;
 	public Animal(String spec, String name, int age) {
-		this.spec = spec;
+		this.setSpec(spec);
 		this.name = name;
 		this.age = age;
 	}
@@ -23,6 +23,12 @@ public class Animal {
 	}
 	public void setAge(int age) {
 		this.age = age;
+	}
+	public String getSpec() {
+		return spec;
+	}
+	public void setSpec(String spec) {
+		this.spec = spec;
 	}
 	
 }
