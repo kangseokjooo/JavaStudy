@@ -23,8 +23,6 @@ public class Day1 {
 		Day1 d = new Day1();
         String s = "banana";
         int[] result = d.solution(s);
-
-        System.out.print("결과: ");
         for (int num : result) {
             System.out.print(num + " ");
         }
