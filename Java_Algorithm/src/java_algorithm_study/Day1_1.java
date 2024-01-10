@@ -29,5 +29,4 @@ public class Day1_1 {
 		System.out.println(result);
 		
 	}
-
 }
