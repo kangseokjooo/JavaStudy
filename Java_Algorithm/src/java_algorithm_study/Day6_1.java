@@ -20,5 +20,6 @@ public class Day6_1 {
 			System.out.print(q.peek()[0]+" ");
 		}
 	}
+	//시간초과 BufferedReader사
 
 }
