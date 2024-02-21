@@ -20,13 +20,12 @@ public class Day11_1 {
 	            d.add(i);
 	        }
 
-	        
 	        while (d.size() > 1) {
 	           
 	            int delete = d.pollFirst();
 	            card.add(delete);
 
-	           int move = d.pollFirst();
+	            int move = d.pollFirst();
 	            d.addLast(move);
 	        }
 
