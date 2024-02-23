@@ -5,19 +5,21 @@ import java.util.*;
 public class Day13_1 {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-        int N = scanner.nextInt();
-        scanner.nextLine();
+		Scanner s = new Scanner(System.in);
+        int N = s.nextInt();
+        s.nextLine();
 
  
         Set<String> words = new HashSet<>();
+        
         for (int i = 0; i < N; i++) {
-            words.add(scanner.nextLine());
+            words.add(s.nextLine());
         }
 
        
-        List<String> sortedWords = new ArrayList<>(words);
-        sortedWords.sort((a, b) -> {
+        List<String> sortArr = new ArrayList<>(words);
+        
+        sortArr.sort((a, b) -> {
             if (a.length() != b.length()) {
                 return Integer.compare(a.length(), b.length());
             }
@@ -25,7 +27,7 @@ public class Day13_1 {
             return a.compareTo(b);
         });
 
-        for (String word : sortedWords) {
+        for (String word : sortArr) {
             System.out.println(word);
         }
    }
