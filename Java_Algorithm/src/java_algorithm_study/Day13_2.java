@@ -11,15 +11,15 @@ public class Day13_2 {
 		for(int i=0;i<N;i++) {
 			arr[i]=s.nextInt();
 		}
-		int max = Integer.MIN_VALUE; 
-        for (int i = 0; i <= N - K; i++) { 
-            int sum = 0;
-            for (int j = i; j < i + K; j++) { 
-                sum += arr[j];
+		int maxt = Integer.MIN_VALUE; 
+        for (int i=0;i<=N-K;i++) { 
+            int sum=0;
+            for (int j=i;j<i+K;j++) { 
+                sum+=arr[j];
             }
-            max = Math.max(max, sum);
+            maxt=Math.max(maxt, sum);
         }
-       System.out.println(max);
+       System.out.println(maxt);
 	}
 
 }
