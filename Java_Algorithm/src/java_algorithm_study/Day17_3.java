@@ -12,12 +12,12 @@ public class Day17_3 {
         StringTokenizer st;
 
         int N = Integer.parseInt(br.readLine());
-        int[] cards = new int[20000001]; // 숫자 범위: -10,000,000 ~ 10,000,000
+        int[] cards = new int[20000001];
 
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < N; i++) {
             int num = Integer.parseInt(st.nextToken());
-            cards[num + 10000000]++; // 음수를 인덱스로 사용하지 않기 위해 10,000,000을 더함
+            cards[num + 10000000]++; 
         }
 
         int M = Integer.parseInt(br.readLine());
