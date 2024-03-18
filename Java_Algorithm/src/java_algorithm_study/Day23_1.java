@@ -15,7 +15,9 @@ public class Day23_1 {
 		
 		int cnt=0;
 		for(int i=N-1;i>=0;i--) {
+			
 			cnt+=K/arr[i];
+			
 			K%=arr[i];
 		}
 		System.out.println(cnt);
