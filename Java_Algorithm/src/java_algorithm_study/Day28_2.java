@@ -10,11 +10,11 @@ public class Day28_2 {
         Scanner s = new Scanner(System.in);
         Set<String> set = new HashSet<String>();
         while (true) {
-            String str = s.nextLine();
+            String str =s.nextLine();
             if (str.equals("0")) {
                 break;
             }
-            for (int i = 0; i < str.length(); i++) {
+            for (int i=0;i<str.length();i++) {
                 for (int j = i + 1; j <= str.length(); j++) {
                     set.add(str.substring(i, j));
                 }
@@ -26,9 +26,9 @@ public class Day28_2 {
     }
 
     public static String maxprime(Set<String> set) {
-        String max = "";
-        for (String str : set) {
-            if (isNumeric(str) && isprime(Long.parseLong(str)) && str.length() > max.length()) {
+        String max="";
+        for (String str:set) {
+            if (isNumeric(str)&&isprime(Long.parseLong(str))&&str.length()>max.length()) {
                 max = str;
             }
         }
@@ -40,11 +40,11 @@ public class Day28_2 {
     }
 
     public static boolean isprime(long l) {
-        if (l <= 1) {
+        if (l<=1) {
             return false;
         }
-        for (int i = 2; i * i <= l; i++) {
-            if (l % i == 0) {
+        for (int i=2; i*i<=l;i++) {
+            if (l%i==0) {
                 return false;
             }
         }
