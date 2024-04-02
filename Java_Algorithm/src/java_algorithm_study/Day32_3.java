@@ -53,18 +53,20 @@ public class Day32_3 {
     	
     	while(!q.isEmpty()) {
     		int current[]=q.poll(); //현재의 위치 
-    		int x=current[0]; 
-    		int y=current[1];
+    		int x=current[0]; //x좌표 
+    		int y=current[1]; //y좌표 
     		int distance=current[2];
     		
     		for(int []dir:direction) {
-    			int nx=x+dir[0]; // 상하 위치 
-    			int ny=y+dir[1]; //좌우 위치
+    			int nx=x+dir[0]; // 다음 x좌표 위치 
+    			int ny=y+dir[1]; //다음 y좌표 위치
+    			//다음 위치가 공간 내에 있고, 방문하지 않았고, 이동 가능하면 
     			if(nx >=0 && nx<N && ny >=0 && ny<N && !visited[nx][ny] && map[nx][ny]<=size) {
-    				visited[nx][ny]=true;
-    				q.offer(new int[] {nx,ny,distance +1});
+    				visited[nx][ny]=true; //다음 위치를 방문했음을 표시 
+    				q.offer(new int[] {nx,ny,distance +1}); 
+    				//다음위치에 물고기가 있고 아기 상어가 먹을 수 있는 크기보다 작으면 
     				if(map[nx][ny] !=0&& map[nx][ny] <size) {
-    					tar.add(new int[] {nx,ny,distance+1});
+    					tar.add(new int[] {nx,ny,distance+1}); //후보 리스트에 추가 
     				}
     			}
     		}
@@ -73,22 +75,23 @@ public class Day32_3 {
     	return 0;
     	
     	Collections.sort(tar,(a,b)->{
-    		if(a[2]!=b[2]) return a[2]-b[2];
-    		if(a[0]!=b[0]) return a[0]-b[0];
-    		return a[1]-b[1];
+    		if(a[2]!=b[2]) return a[2]-b[2];//distance가 짧은 순서대
+    		if(a[0]!=b[0]) return a[0]-b[0]; //가장 상에 있는 물고기 
+    		return a[1]-b[1]; //가장 왼쪽에있는 물고기로 
     	});
-    	
+    	//가장 윗쪽에있는 물고기 위치 정보를 가져
     	int target[]=tar.get(0);
     	int tx=target[0];
     	int ty=target[1];
     	int time=target[2];
     	
+    	//상어 위치 갱신 
     	X=tx;
     	Y=ty;
     	
-    	map[tx][ty]=0;
+    	map[tx][ty]=0; //먹은 물고기는 빈칸으로 변경 
     	
-    	return time;
+    	return time; //총 이동시간 반환 
     }
     //unsolved 
 }
