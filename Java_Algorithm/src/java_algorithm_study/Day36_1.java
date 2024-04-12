@@ -27,7 +27,7 @@ public class Day36_1 {
             int cnt=0;
             
             for(int i=1;i<restArr.length;i++) {
-                cnt += (restArr[i] - restArr[i-1] - 1) / m;
+                cnt+=(restArr[i]-restArr[i-1]-1)/m;
             }
             
             if(cnt<=M) {
