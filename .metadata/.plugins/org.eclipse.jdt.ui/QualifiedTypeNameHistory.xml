@@ -58,6 +58,6 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java_algorithm_study.Day40_2.RobotClean"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>
