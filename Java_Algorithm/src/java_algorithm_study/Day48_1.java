@@ -19,7 +19,9 @@ public class Day48_1 {
 		
 		//1<=A,B,C<=200
 		boolean visited[][][] = new boolean[201][201][201];
+		
 		Queue<int[]> q = new LinkedList<int[]>();
+		
 		q.offer(new int[] { 0, 0, C });
 
 		List<Integer> result = new ArrayList<Integer>();
