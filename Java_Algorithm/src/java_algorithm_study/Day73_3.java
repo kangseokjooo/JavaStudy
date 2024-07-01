@@ -9,24 +9,23 @@ public class Day73_3 {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         
-        long[] size = new long[n];
+        int[] size = new int[n];
         for (int i = 0; i < n; i++) {
-            size[i] = s.nextLong();
+            size[i] = s.nextInt();
         }
         Arrays.sort(size);
         
         int cnt = 0;
-        int left = 0, right = 0;
-        
-        while (left < n) {
-            while (right < n && size[right] < size[left] * 10 / 9.0) {
+        int right = 0;
+
+        for (int left = 0; left < n; left++) {
+            while (right < n && size[right] <= size[left] * 10 / 9.0) {
                 right++;
             }
             cnt += (right - left - 1);
-            left++;
         }
         
         System.out.println(cnt);
     }
-   //BJ2428
+    //BJ2428
 }
