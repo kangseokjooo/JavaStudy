@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java_generic.MyCustomListCeneric"/>
-    <fullyQualifiedTypeName name="java_generic.Pair"/>
-    <fullyQualifiedTypeName name="java_generic.Box"/>
-    <fullyQualifiedTypeName name="java_generic.Moveable"/>
-    <fullyQualifiedTypeName name="java_generic.Car"/>
     <fullyQualifiedTypeName name="java_generic.Container"/>
     <fullyQualifiedTypeName name="java.lang.Number"/>
     <fullyQualifiedTypeName name="java_generic.GenericExample3"/>
@@ -23,7 +18,6 @@
     <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.util.TreeMap"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
@@ -39,25 +33,31 @@
     <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
     <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
-    <fullyQualifiedTypeName name="int"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java_algorithm_study.Day67_5.Pos"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java_algorithm_study.Day72_3.Student"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java_algorithm_study.Day74_2.Student"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java_algorithm_study.Day77_1.Train"/>
+    <fullyQualifiedTypeName name="java_algorithm_study.Day77_4.Point"/>
     <fullyQualifiedTypeName name="boolean"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="int"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java_algorithm_study.Day80_2.Game"/>
+    <fullyQualifiedTypeName name="javax.sql.rowset.spi.SyncFactoryException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>
