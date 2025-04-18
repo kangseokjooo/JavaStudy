@@ -41,5 +41,5 @@ public class Algo_2 {
 		int area=(mw*mh)-(sw*sh);
 		System.out.println(area*K);
 	}
-
+	//BJ2477
 }
