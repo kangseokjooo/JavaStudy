@@ -1,9 +1,6 @@
 package java_algorithm_study;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+
 
 public class Gcd_Lcm {
 
