@@ -41,4 +41,4 @@ public class T_02 {
 
 }
 
-//Programmers L2 그래픽스 퀴
+//BJO S3 그래픽스 퀴즈 
