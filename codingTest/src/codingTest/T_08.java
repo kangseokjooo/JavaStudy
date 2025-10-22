@@ -1,6 +1,5 @@
 package codingTest;
 
-import java.util.*;
 
 import java.util.*;
 
