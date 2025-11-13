@@ -31,5 +31,5 @@ public class T_35 {
 		}
 
 	}
-	//BOJ S3 전쟁 땅따먹기 
+	//BOJ S3 전쟁 땅따먹기
 }

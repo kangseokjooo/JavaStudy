@@ -32,6 +32,6 @@ public class T_30 {
 	        return true;
 	    }
 	
-	//BOJ S3 베르트랑 공준 
+	//BOJ S3 베르트랑 공준
 
 }

@@ -31,6 +31,6 @@ public class T_34 {
 		}
 	}
 	
-	//BOJ S1 줄어들지 않아 
+	//BOJ S1 줄어들지 않아(X) 
 
 }

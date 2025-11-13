@@ -34,6 +34,6 @@ public class T_19 {
 		System.out.println(answer);
 
 	}
-	//BOJ S2 상자 넣기 
+	//BOJ S2 상자 넣기 (X)
 
 }
