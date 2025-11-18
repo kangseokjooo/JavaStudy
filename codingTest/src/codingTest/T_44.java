@@ -53,5 +53,6 @@ public class T_44 {
 		}
 		return costs[e];
 	}
+	//BOJ G5 최소비용(X)
 
 }
