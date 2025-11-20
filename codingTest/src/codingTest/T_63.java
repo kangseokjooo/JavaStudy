@@ -30,6 +30,6 @@ public class T_63 {
 			System.out.println("#"+(tc+1)+" "+answer);
 		}
 	}
-	//구간
+	//구간 
 
 }
