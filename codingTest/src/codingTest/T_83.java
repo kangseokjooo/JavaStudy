@@ -46,7 +46,7 @@ public class T_83 {
 				
 				if(cur<n) {
 					sum+=n-cur;
-					
+					i++;
 				}else {
 					sum+=cur;
 				}
