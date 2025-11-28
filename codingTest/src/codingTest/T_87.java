@@ -45,5 +45,5 @@ public class T_87 {
         }
         return true;
     }
-    //BOJ S1단어 맞추기 (X)
+    //BOJ S1단어 맞추기 (X) 
 }
