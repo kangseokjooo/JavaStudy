@@ -111,4 +111,6 @@ public class T_94 {
 		return new int[] { x, y, 0 };
 
 	}
+	
+	//구슬탈출 G1 BOJ
 }
